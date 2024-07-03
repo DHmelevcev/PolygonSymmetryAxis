@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Geometry">
+      <UniqueIdentifier>{a85bf3ed-46e8-4553-a75f-586c743dd6ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry\Private">
+      <UniqueIdentifier>{88d8055a-4e7f-40bb-a0ec-e57e40139143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry\Public">
+      <UniqueIdentifier>{977d5125-536c-41d4-80db-e74f2bef0081}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{37db0a3e-38f1-4058-abe6-3c4907199943}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc\Public">
+      <UniqueIdentifier>{53da4dde-4062-4b7f-b99d-17795f80d029}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Source\Geometry\Public\Point2D.h">
+      <Filter>Geometry\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Geometry\Public\Vector2D.h">
+      <Filter>Geometry\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Geometry\Public\Polygon2D.h">
+      <Filter>Geometry\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Geometry\Public\Line2D.h">
+      <Filter>Geometry\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Misc\Public\Prefix.h">
+      <Filter>Misc\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Source\Geometry\Private\Point2D.cpp">
+      <Filter>Geometry\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Geometry\Private\Vector2D.cpp">
+      <Filter>Geometry\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\main.cpp" />
+    <ClCompile Include="..\Source\Geometry\Private\Polygon2D.cpp">
+      <Filter>Geometry\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Geometry\Private\Line2D.cpp">
+      <Filter>Geometry\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
